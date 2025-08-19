@@ -44,7 +44,7 @@ spec:
             - name: ROUTE_PREFIX
               value: "dev/api"
             - name: AWS_S3_BUCKET_NAME
-              value: "2b4d76f9-fiap-postech-7soat-g31-f5"
+              value: "2b4d76f9-fiap-postech-hacka-f5"
             - name: BASE_URL_IDENTITY_SERVICE
               value: "http://fiap-x-identity-lb-srv:3000/dev/identity"
           ports:
