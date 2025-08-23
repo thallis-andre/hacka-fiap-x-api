@@ -111,8 +111,8 @@ jobs:
           build-args: |
             target=fiap-x-api
           tags: |
-            gm50x/fiap-x-api:latest
-            gm50x/fiap-x-api:v${{ github.run_number }}
+            thallisandre439/fiap-x-api:latest
+            thallisandre439/fiap-x-api:v${{ github.run_number }}
   deploy:
     name: 'Deploy Application'
     runs-on: ubuntu-latest
