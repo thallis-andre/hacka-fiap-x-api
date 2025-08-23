@@ -18,7 +18,7 @@ export const environment = {
   AWS_SECRET_ACCESS_KEY: 'test',
   AWS_SESSION_TOKEN: '',
   AWS_REGION: 'us-east-1',
-  AWS_S3_BUCKET_NAME: 'fiap-hacka-f5-tests',
+  AWS_S3_BUCKET_NAME: 'fiap-x-tests-556930053725',
   AWS_S3_LOCALSTACK_ENDPOINT: 'http://localhost:4566',
   AWS_S3_USE_LOCALSTACK: 'true',
 };

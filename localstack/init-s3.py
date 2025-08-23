@@ -7,5 +7,5 @@ s3_client = boto3.client(
     aws_secret_access_key="test"
 )
 
-s3_client.create_bucket(Bucket="fiap-hacka-f5")
-s3_client.create_bucket(Bucket="fiap-hacka-f5-tests")
+s3_client.create_bucket(Bucket="fiap-x-application-556930053725")
+s3_client.create_bucket(Bucket="fiap-x-tests-556930053725")
