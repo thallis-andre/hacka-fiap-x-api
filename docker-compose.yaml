@@ -1,6 +1,6 @@
 services:
   fiap-x-identity:
-    image: gm50x/fiap-x-identity:latest
+    image: thallisandre439/fiap-x-identity:latest
     container_name: fiap-x-identity
     restart: 'on-failure'
     ports:

@@ -17,7 +17,7 @@ spec:
       automountServiceAccountToken: false
       containers:
         - name: fiap-x-api-app
-          image: gm50x/fiap-x-api:latest
+          image: thallisandre439/fiap-x-api:latest
           imagePullPolicy: Always
           envFrom:
             - secretRef:

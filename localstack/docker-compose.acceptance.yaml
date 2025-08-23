@@ -32,7 +32,7 @@ services:
       - 4000:3000
     depends_on: [mongodb, rabbitmq]
   fiap-x-identity:
-    image: gm50x/fiap-x-identity:latest
+    image: thallisandre439/fiap-x-identity:latest
     restart: 'on-failure'
     ports:
       - 3400:3400
