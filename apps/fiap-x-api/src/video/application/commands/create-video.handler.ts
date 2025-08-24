@@ -37,9 +37,7 @@ export class CreateVideoHandler
       await this.storage.createSignedUrlForUpload(
         `${data.ownerId}/${video.id}`,
       );
-    video.create(provider, bucket, path);
     await this.repository.create(video);
-    await video.commit();
     return new CreateVideoResult({
       id: video.id,
       signedUrlForUpload: signedUrl,
