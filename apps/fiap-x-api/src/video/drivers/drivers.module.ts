@@ -6,7 +6,6 @@ import { DownloadMyContentController } from './download-my-content.controller';
 import { GetMyVideoController } from './get-my-video.controller';
 import { ListMyVideosController } from './list-my-videos.controller';
 import { ProcessSnapshotsResultController } from './process-snapshots-result.controller';
-import { S3FileUploadedController } from './s3-file-uploaded.controller';
 
 const HttpDrivers = [
   CreateVideoController,
@@ -15,7 +14,7 @@ const HttpDrivers = [
   DownloadMyContentController,
 ];
 
-const AmqpDrivers = [ProcessSnapshotsResultController, S3FileUploadedController];
+const AmqpDrivers = [ProcessSnapshotsResultController];
 
 @Module({
   imports: [CqrsModule, ApplicationModule],
